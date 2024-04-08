@@ -63,10 +63,10 @@ jobs:
           java-version: 17
           distribution: temurin
 
-      # - name: Compile Spigot versions
-      #   uses: SpraxDev/Action-SpigotMC@v5
-      #   with:
-      #     versions: 1.18.1, 1.18.2
+      - name: Compile Spigot versions
+        uses: SpraxDev/Action-SpigotMC@v5
+        with:
+          versions: 1.18.1, 1.18.2
       - name: Compile Spigot versions (remapped)
         uses: SpraxDev/Action-SpigotMC@v5
         with:
