@@ -32,7 +32,7 @@ public class v1_20_R2 extends ChairNMS {
         Entity nmsEntity;
 
         if (useArmorStand) {
-            nmsEntity = new CustomArmorStand(nmsWorld, loc.getX(), loc.getY() - .4, loc.getZ(), regenerationAmplifier);
+            nmsEntity = new CustomArmorStand(nmsWorld, loc.getX(), loc.getY() - .15, loc.getZ(), regenerationAmplifier);
         } else {
             nmsEntity = new CustomArrow(nmsWorld, loc.getX(), loc.getY() + .25, loc.getZ(), regenerationAmplifier);
         }
